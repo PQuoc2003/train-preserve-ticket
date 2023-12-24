@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Trainpreserveticket" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Trainpreserveticket" parent="Base.Theme.Trainpreserveticket" />
+    <style name="Theme.Trainpreserveticket.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="Theme.Trainpreserveticket.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Trainpreserveticket.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
