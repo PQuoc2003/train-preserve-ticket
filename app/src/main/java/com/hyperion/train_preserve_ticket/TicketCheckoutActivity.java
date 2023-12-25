@@ -92,11 +92,11 @@ public class TicketCheckoutActivity extends AppCompatActivity implements AdminTi
 
     private void changeAdapter() {
         if (!flag) {
-            btHistory.setText("CHECK OUT");
+            btHistory.setText(R.string.check_out);
             recyclerView.setAdapter(adminCheckAdapterChecked);
             flag = true;
         } else {
-            btHistory.setText("HISTORY");
+            btHistory.setText(R.string.history);
             recyclerView.setAdapter(adminCheckAdapter);
             flag = false;
         }

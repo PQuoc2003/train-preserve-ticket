@@ -22,7 +22,7 @@
             android:textSize="30sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SEARCH FOR TRIPS" />
+            android:text="@string/search_for_trips" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,7 +59,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Start" />
+                        android:text="@string/add_start" />
 
                     <Spinner
                         android:textAlignment="center"
@@ -84,7 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="End" />
+                        android:text="@string/add_end" />
 
                     <Spinner
                         android:textAlignment="center"
@@ -110,7 +110,7 @@
                         android:gravity="center"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Date" />
+                        android:text="@string/add_date" />
 
                     <Button
                         android:id="@+id/bt_date_search_sP"
@@ -145,7 +145,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:paddingHorizontal="40dp"
-                        android:text="Search" />
+                        android:text="@string/pc_search" />
 
                     <Button
                         android:textColor="@color/ivory"
@@ -158,7 +158,7 @@
                         android:layout_weight="1"
                         android:textSize="24sp"
                         android:paddingHorizontal="40dp"
-                        android:text="Back" />
+                        android:text="@string/pc_back" />
 
 
 

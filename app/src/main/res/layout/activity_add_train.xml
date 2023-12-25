@@ -18,7 +18,7 @@
             android:textSize="28sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ADD NEW TRIP"
+            android:text="@string/add_title"
             android:textColor="@color/orange"
             />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Start" />
+                    android:text="@string/add_start" />
 
                 <Spinner
                     android:textAlignment="center"
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="End" />
+                    android:text="@string/add_end" />
 
                 <Spinner
                     android:textAlignment="center"
@@ -119,7 +119,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Train" />
+                    android:text="@string/add_train" />
 
                 <Spinner
                     android:textAlignment="center"
@@ -154,7 +154,7 @@
                     android:gravity="center"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Date" />
+                    android:text="@string/add_date" />
 
                 <Button
                     android:id="@+id/bt_date_pick_add_train"
@@ -189,7 +189,7 @@
                     android:gravity="center"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Time" />
+                    android:text="@string/add_time" />
 
                 <Button
                     android:id="@+id/bt_time_pick"
@@ -223,19 +223,18 @@
                     android:gravity="center"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Price" />
+                    android:text="@string/add_price" />
 
                 <EditText
                     android:id="@+id/edt_price"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:textSize="24dp"
+                    android:textSize="24sp"
                     android:layout_weight="3"
                     android:ems="10"
                     android:inputType="number"
-                    android:hint="Price"
+                    android:hint="@string/add_price"
                     />
-
 
             </LinearLayout>
         </LinearLayout>
@@ -263,7 +262,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="24sp"
                     android:paddingHorizontal="40dp"
-                    android:text="Back" />
+                    android:text="@string/add_back" />
             </LinearLayout>
 
             <LinearLayout
@@ -281,7 +280,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingHorizontal="40dp"
-                    android:text="Add" />
+                    android:text="@string/add_add" />
             </LinearLayout>
 
 

@@ -52,7 +52,7 @@
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ID : " />
+                        android:text="@string/ticketId" />
 
                     <TextView
                         android:textStyle="bold"
@@ -72,7 +72,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Start : " />
+                        android:text="@string/items_start" />
 
                     <TextView
                         android:id="@+id/tv_cTU_start"
@@ -91,7 +91,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="End: " />
+                        android:text="@string/items_end" />
 
                     <TextView
                         android:id="@+id/tv_cTU_end"
@@ -110,7 +110,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Train : " />
+                        android:text="@string/items_train" />
 
                     <TextView
                         android:id="@+id/tv_cTU_train"
@@ -130,7 +130,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Date : " />
+                        android:text="@string/items_date" />
 
                     <TextView
                         android:id="@+id/tv_cTU_date"
@@ -150,14 +150,13 @@
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Price : " />
+                        android:text="@string/items_price" />
 
                     <TextView
                         android:textStyle="bold"
                         android:id="@+id/tv_cTU_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:text="30" />
                 </LinearLayout>
             </LinearLayout>
@@ -177,7 +176,7 @@
                     android:id="@+id/bt_ctU_cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cancel" />
+                    android:text="@string/cancel" />
 
 
                 <TextView
@@ -186,7 +185,7 @@
                     android:textSize="18sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Checked out"/>
+                    android:text="@string/checked_out"/>
 
 
             </LinearLayout>

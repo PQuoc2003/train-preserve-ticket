@@ -51,7 +51,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Start : " />
+                        android:text="@string/items_start" />
 
                     <TextView
                         android:id="@+id/tv_items_startStation"
@@ -70,7 +70,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="End : " />
+                        android:text="@string/items_end" />
 
                     <TextView
                         android:id="@+id/tv_items_endStation"
@@ -89,7 +89,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Train : " />
+                        android:text="@string/items_train" />
 
                     <TextView
                         android:id="@+id/tv_items_trainName"
@@ -109,7 +109,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Date : " />
+                        android:text="@string/items_date" />
 
                     <TextView
                         android:id="@+id/tv_items_datetime"
@@ -128,7 +128,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Price : " />
+                        android:text="@string/items_price" />
 
                     <TextView
                         android:id="@+id/tv_items_price"
@@ -152,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
-                    android:text="Started" />
+                    android:text="@string/started" />
 
 
                 <Button
@@ -162,7 +162,7 @@
                     android:id="@+id/bt_items_start"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Start" />
+                    android:text="@string/start_train" />
 
                 <Button
                     android:visibility="gone"

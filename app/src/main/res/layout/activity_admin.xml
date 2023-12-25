@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Add new trip" />
+            android:text="@string/admin_add" />
 
         <Button
             android:background="@drawable/custom_button_1"
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Manage trip" />
+            android:text="@string/admin_manage" />
 
         <Button
             android:background="@drawable/custom_button_1"
@@ -76,8 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-
-            android:text="Check out ticket" />
+            android:text="@string/admin_check" />
 
         <Button
             android:background="@drawable/custom_button_1"
@@ -90,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Log out" />
+            android:text="@string/admin_logout" />
 
     </LinearLayout>
 </LinearLayout>

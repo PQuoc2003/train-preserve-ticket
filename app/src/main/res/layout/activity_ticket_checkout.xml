@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SEARCH RESULT" />
+            android:text="@string/search_result" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,7 +53,7 @@
             android:textSize="30sp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="Back" />
+            android:text="@string/pc_back" />
 
         <Button
             android:layout_weight="1"
@@ -65,7 +65,7 @@
             android:textSize="30sp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="HISTORY" />
+            android:text="@string/history" />
 
 
     </LinearLayout>

@@ -3,11 +3,18 @@ package com.hyperion.train_preserve_ticket;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,11 +22,17 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.rpc.context.AttributeContext;
+
+import java.util.Locale;
+
+import io.grpc.internal.SharedResourceHolder;
 
 public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     Context context;
+
 
 
     @Override
@@ -36,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         Button btLogin = findViewById(R.id.register_button);
         EditText email = findViewById(R.id.register_edt_email);
         EditText password = findViewById(R.id.register_confirm_pass);
+
 
         btLogin.setOnClickListener(v -> {
             String myEmail = email.getText().toString();
