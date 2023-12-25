@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_2"
+    android:orientation="vertical"
+    tools:context=".UserHomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="MENU"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/custom_button_1"
+                android:backgroundTint="@color/orange"
+                android:textColor="@color/white"
+                android:elevation="8dp"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:id="@+id/bt_search_uH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/menu_search" />
+
+            <Button
+                android:background="@drawable/custom_button_1"
+                android:backgroundTint="@color/yellow"
+                android:textColor="@color/white"
+                android:elevation="8dp"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:id="@+id/bt_history_uH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/history" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/custom_button_1"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:elevation="8dp"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:id="@+id/bt_info_uH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="@string/information" />
+
+            <Button
+                android:background="@drawable/custom_button_1"
+                android:backgroundTint="@color/light_blue"
+                android:textColor="@color/white"
+                android:elevation="8dp"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:id="@+id/bt_logout_uH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/admin_logout" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

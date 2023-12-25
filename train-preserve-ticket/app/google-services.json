@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "630299380135",
+    "firebase_url": "https://train-preserve-ticket-a5271-default-rtdb.firebaseio.com",
+    "project_id": "train-preserve-ticket-a5271",
+    "storage_bucket": "train-preserve-ticket-a5271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630299380135:android:35e4db0f725435b3020e82",
+        "android_client_info": {
+          "package_name": "com.hyperion.train_preserve_ticket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRABvrursTO76nEIROY1V7cmh9aJraQC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
